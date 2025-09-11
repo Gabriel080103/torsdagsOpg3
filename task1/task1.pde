@@ -1,4 +1,5 @@
 void setup(){
+  // calling methods in setup
 hello();
 
 costum("This is a costum message");
