@@ -1,7 +1,22 @@
-class student {
-  String name = "Gabriel";
-  int age = 22;
-  boolean isMale = true;
-  char datamatikerTeam = 'b';
+class Student {
+
+ 
+  String name;
   
+  int age;
   
+  boolean isFemale;
+  
+  char datamatikerTeam;
+
+  // Constructor
+  Student(String tmpName, int tmpAge, boolean tmpIsFemale, char tmpDatamatikerTeam) {
+    name = tmpName;
+    
+    age = tmpAge;
+    
+    isFemale = tmpIsFemale;
+    
+    datamatikerTeam = tmpDatamatikerTeam;
+  }
+}
